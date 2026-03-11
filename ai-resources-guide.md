@@ -128,7 +128,7 @@ Gemini CLI is Google's AI-powered coding assistant that runs in your terminal â€
 
 Gemini CLI connects to Google's models via a Vertex AI project, or via an API key generated through Unbound Gateway.
 
-**Access:** Either use a GCP Vertex AI project, or request access to Unbound Gateway via ConductorOne to generate an API key.
+**Access:** Either use a GCP Vertex AI project, or request access to Unbound Gateway via ConductorOne to generate an API key. Installation instructions are available on the [Gemini CLI GitHub page](https://github.com/google-gemini/gemini-cli).
 
 #### Google AI Studio
 
@@ -142,7 +142,7 @@ Vertex AI is Google's machine learning platform for building, training, and depl
 
 This is primarily for engineering teams working on ML/AI-powered features and services.
 
-**Access:** [TBD â€” access process to be confirmed.]
+**Access:** Contact a GCP administrator or InfoSec, who will set up a project for you.
 
 #### Google NotebookLM
 
