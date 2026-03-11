@@ -110,11 +110,11 @@ Because it works inside your existing tools, Copilot is one of the easiest AI to
 
 ### Gemini Enterprise
 
-Gemini is Google's AI assistant, integrated with Google Workspace. It can help you draft and edit in Google Docs, analyse data in Google Sheets, compose emails in Gmail, and summarise content across Google's productivity suite.
+Gemini is Google's AI assistant, integrated with Google Workspace. It can help you draft and edit in Google Docs, analyse data in Google Sheets, compose emails in Gmail, and summarise content across Google's productivity suite. Gemini Enterprise also includes an agent designer for building AI-powered agents and automated workflows that can search across company data and perform multi-step tasks.
 
 Gemini Enterprise provides data protection — your conversations are not used to train Google's models.
 
-**Access:** Request via ConductorOne. Gemini Enterprise also includes access to the Gemini App, NotebookLM, and Google Agentspace.
+**Access:** Request via ConductorOne. Gemini Enterprise also includes access to the Gemini App and NotebookLM.
 
 #### Gemini App
 
@@ -126,9 +126,9 @@ The Gemini app at [gemini.google.com/app](https://gemini.google.com/app) is a st
 
 Gemini CLI is Google's AI-powered coding assistant that runs in your terminal — similar to Claude Code and Codex CLI. It can generate and edit code, automate tasks, and work with files on your machine.
 
-Gemini CLI connects to Google's models via a Vertex AI project.
+Gemini CLI connects to Google's models via a Vertex AI project, or via an API key generated through Unbound Gateway.
 
-**Access:** Requires access to a GCP Vertex AI project. Primarily for engineering teams already working with Vertex AI.
+**Access:** Either use a GCP Vertex AI project, or request access to Unbound Gateway via ConductorOne to generate an API key.
 
 #### Google AI Studio
 
@@ -147,12 +147,6 @@ This is primarily for engineering teams working on ML/AI-powered features and se
 #### Google NotebookLM
 
 NotebookLM is an AI-powered research and note-taking tool from Google. You upload documents — PDFs, articles, notes — and it helps you synthesise information, answer questions about your sources, and generate summaries. It's particularly useful when you need to quickly get across a large body of material.
-
-**Access:** Included with Gemini Enterprise. Request Gemini Enterprise via ConductorOne.
-
-#### Google Agentspace
-
-Google Agentspace is a platform for building AI-powered agents and workflows. It allows you to create automated assistants that can search across company data, answer questions, and perform multi-step tasks.
 
 **Access:** Included with Gemini Enterprise. Request Gemini Enterprise via ConductorOne.
 
@@ -186,7 +180,7 @@ For more specific tasks, use this quick-reference table:
 | Data analysis & visualisation | ChatGPT Enterprise / Vertex AI |
 | Marketing copy & content | ChatGPT Enterprise / Claude Enterprise |
 | Prototyping AI ideas | Google AI Studio |
-| Building AI agents & workflows | Google Agentspace / Vertex AI |
+| Building AI agents & workflows | Gemini Enterprise (agent designer) / Vertex AI |
 | Quick question, not sure where to start | Gemini Enterprise |
 
 Many of these tools have overlapping capabilities. Don't worry about picking the "perfect" one — try a couple and see what feels most natural for your workflow. The best tool is the one you'll actually use.
