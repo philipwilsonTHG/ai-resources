@@ -114,13 +114,27 @@ Gemini is Google's AI assistant, integrated with Google Workspace. It can help y
 
 Gemini Enterprise provides data protection — your conversations are not used to train Google's models.
 
-**Access:** [TBD — access process to be confirmed. Gemini Enterprise is available to all employees; access details will be added here shortly.]
+**Access:** Request via ConductorOne. Gemini Enterprise also includes access to the Gemini App, NotebookLM, and Google Agentspace.
+
+#### Gemini App
+
+The Gemini app at [gemini.google.com/app](https://gemini.google.com/app) is a standalone AI assistant from Google — similar to using ChatGPT or Claude directly in a browser. You can have conversations, upload files, and get help with writing, analysis, and research tasks. It uses your Gemini Enterprise account, so it has the same data protections.
+
+**Access:** Available to all employees through Gemini Enterprise. Log in with your work Google account.
+
+#### Gemini CLI
+
+Gemini CLI is Google's AI-powered coding assistant that runs in your terminal — similar to Claude Code and Codex CLI. It can generate and edit code, automate tasks, and work with files on your machine.
+
+Gemini CLI connects to Google's models via a Vertex AI project.
+
+**Access:** Requires access to a GCP Vertex AI project. Primarily for engineering teams already working with Vertex AI.
 
 #### Google AI Studio
 
-Google AI Studio is a web-based playground for experimenting with Google's AI models. It's a good place to prototype ideas, test different prompts, and explore what Google's models can do before building something more formal.
+Google AI Studio at [aistudio.google.com](https://aistudio.google.com) is a web-based playground for experimenting with Google's AI models. It's a good place to prototype ideas, test different prompts, and explore what Google's models can do before building something more formal.
 
-**Access:** [TBD — access process to be confirmed.]
+**Access:** Available to all employees. Log in with your work Google account.
 
 #### GCP Vertex AI
 
@@ -134,13 +148,13 @@ This is primarily for engineering teams working on ML/AI-powered features and se
 
 NotebookLM is an AI-powered research and note-taking tool from Google. You upload documents — PDFs, articles, notes — and it helps you synthesise information, answer questions about your sources, and generate summaries. It's particularly useful when you need to quickly get across a large body of material.
 
-**Access:** [TBD — access process to be confirmed.]
+**Access:** Included with Gemini Enterprise. Request Gemini Enterprise via ConductorOne.
 
 #### Google Agentspace
 
 Google Agentspace is a platform for building AI-powered agents and workflows. It allows you to create automated assistants that can search across company data, answer questions, and perform multi-step tasks.
 
-**Access:** [TBD — access process to be confirmed.]
+**Access:** Included with Gemini Enterprise. Request Gemini Enterprise via ConductorOne.
 
 ---
 
@@ -148,7 +162,7 @@ Google Agentspace is a platform for building AI-powered agents and workflows. It
 
 GitHub Copilot is an AI pair-programming tool that provides code suggestions directly in your IDE as you type. It can autocomplete functions, suggest implementations, and help you write boilerplate code faster.
 
-**Access:** [TBD — availability is currently being confirmed. This tool may no longer be available.]
+**Access:** Must be enabled by your GitHub organisation administrator. Contact your org admin to request access.
 
 ## Which Tool Should I Use?
 
@@ -163,9 +177,9 @@ For more specific tasks, use this quick-reference table:
 | Analysing spreadsheet data | Copilot (Excel) / Gemini (Sheets) |
 | Summarising long documents | Claude Enterprise / NotebookLM |
 | Research & synthesis from multiple sources | NotebookLM / Claude Enterprise |
-| Writing & editing code | Claude Code / GitHub Copilot [TBD] |
+| Writing & editing code | Claude Code / GitHub Copilot |
 | Debugging & code review | Claude Code / ChatGPT Enterprise |
-| Terminal & scripting automation | Claude Code / Codex CLI |
+| Terminal & scripting automation | Claude Code / Codex CLI / Gemini CLI |
 | Email management & drafting | Copilot (Outlook) / Gemini (Gmail) |
 | Meeting summaries & recaps | Copilot (Teams) |
 | Creating presentations | Copilot (PowerPoint) / Gemini (Slides) |
