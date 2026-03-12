@@ -123,6 +123,14 @@ NotebookLM is an AI-powered research and note-taking tool from Google. You uploa
 
 **Access:** Included with Gemini Enterprise. Request Gemini Enterprise via ConductorOne.
 
+---
+
+### Writer
+
+[Writer](https://writer.com/) is an AI platform designed for enterprise content generation, with features for maintaining brand consistency, style guides, and content governance. THG has a corporate account with Writer.
+
+**Access:** [TBD — access details to be confirmed.]
+
 ## CLI Tools for Programmers
 
 These tools run in your terminal and are designed for writing, editing, running, and debugging code. They are most useful for software engineers, data analysts, and anyone comfortable working on the command line.
