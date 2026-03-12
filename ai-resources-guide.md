@@ -138,9 +138,11 @@ Installation instructions are available on the [Claude Code GitHub page](https:/
 
 ---
 
-### Codex CLI
+### Codex CLI and Codex App
 
 OpenAI's Codex CLI is an AI-powered coding assistant that runs in your terminal. It can write, edit, run, and debug code, as well as explain existing code, automate scripting tasks, and work with files on your machine. It uses your ChatGPT Enterprise account, so it has the same data protections.
+
+There is also a [Codex app for macOS](https://chatgpt.com/codex) that provides a graphical interface for working with Codex.
 
 **Access:** Uses your ChatGPT Enterprise account. Install the CLI tool and authenticate with your enterprise credentials. Installation instructions are available on the [Codex GitHub page](https://github.com/openai/codex).
 
