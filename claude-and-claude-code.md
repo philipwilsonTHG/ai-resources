@@ -51,7 +51,7 @@ Claude Code is an agentic coding tool that reads your codebase, edits files, run
 
 ### Before You Start
 
-- Make sure you are on the **corporate network or VPN** — many installation issues are caused by being off-network
+- You need to be using a **THG-managed laptop** — many of these instructions won't work correctly on a personal device
 - Have your **THG Okta credentials** ready (the same login you use for email)
 - The setup takes around 15–20 minutes on Mac, 20–30 minutes on Windows
 
@@ -102,10 +102,20 @@ nvm install --lts
 npm install -g unbound-claude-code
 ```
 
-If you see certificate or SSL errors, run the following fix (common on corporate machines):
+If you see certificate or SSL errors (common on corporate machines due to TLS inspection), run [fumitm](https://github.com/aberoham/fumitm) to automatically detect and fix certificate trust issues:
+
+**macOS / Linux / WSL:**
 
 ```bash
-curl -LsSf https://raw.githubusercontent.com/aberoham/fuwarp/main/fuwarp.py -o fuwarp.py && chmod +x ./fuwarp.py && ./fuwarp.py --fix
+python3 <(curl -LsSf https://raw.githubusercontent.com/aberoham/fumitm/main/fumitm.py) --fix --yes
+source ~/.zshrc  # or ~/.bashrc
+```
+
+**Windows (PowerShell):**
+
+```powershell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/aberoham/fumitm/main/fumitm_windows.py" -OutFile "fumitm_windows.py"
+python fumitm_windows.py --fix
 ```
 
 Then retry the install command.
