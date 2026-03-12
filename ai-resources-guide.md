@@ -188,7 +188,7 @@ For more specific tasks, use this quick-reference table:
 | Data analysis & visualisation | ChatGPT Enterprise / Vertex AI |
 | Marketing copy & content | ChatGPT Enterprise / Claude Enterprise |
 | Prototyping AI ideas | Google AI Studio |
-| Building AI agents & workflows | Gemini Enterprise (agent designer) / Vertex AI |
+| Building AI agents & workflows | Gemini Enterprise (agent designer) / Vertex AI — see [Building Agents for Non-Programmers](building-agents-for-non-programmers.md) |
 | Quick question, not sure where to start | Gemini Enterprise |
 
 Many of these tools have overlapping capabilities. Don't worry about picking the "perfect" one — try a couple and see what feels most natural for your workflow. The best tool is the one you'll actually use.
