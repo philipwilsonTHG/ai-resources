@@ -172,15 +172,15 @@ For more specific tasks, use this quick-reference table:
 |------|---------------------|
 | General writing & editing (emails, reports, proposals) | Gemini Enterprise / Copilot |
 | Brainstorming & ideation | ChatGPT Enterprise / Gemini Enterprise |
-| Analysing spreadsheet data | Copilot (Excel) / Gemini (Sheets) |
+| Analysing spreadsheet data | Copilot (Excel) / Gemini (Sheets) / Claude / ChatGPT |
 | Summarising long documents | Claude Enterprise / NotebookLM |
 | Research & synthesis from multiple sources | NotebookLM / Claude Enterprise |
-| Writing & editing code | Claude Code / GitHub Copilot |
-| Debugging & code review | Claude Code / ChatGPT Enterprise |
+| Writing & editing code | Claude Code / Codex CLI / Gemini CLI / GitHub Copilot |
+| Debugging & code review | Claude Code / Codex CLI / Gemini CLI / ChatGPT Enterprise |
 | Terminal & scripting automation | Claude Code / Codex CLI / Gemini CLI |
 | Email management & drafting | Copilot (Outlook) / Gemini (Gmail) |
 | Meeting summaries & recaps | Copilot (Teams) |
-| Creating presentations | Copilot (PowerPoint) / Gemini (Slides) |
+| Creating presentations | Copilot (PowerPoint) / Gemini (Slides) / Claude / ChatGPT |
 | Data analysis & visualisation | ChatGPT Enterprise / Vertex AI |
 | Marketing copy & content | ChatGPT Enterprise / Claude Enterprise |
 | Prototyping AI ideas | Google AI Studio |
