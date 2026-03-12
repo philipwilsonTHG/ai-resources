@@ -18,7 +18,7 @@ Claude is Anthropic's AI assistant. It has particular strengths in:
 ### Getting Started with Claude
 
 1. Request access via ConductorOne (through [Okta](https://thg.okta.com)). Note: we have 100 seats and there is currently a waiting list.
-2. Once approved, log in at [claude.ai](https://claude.ai)
+2. Once approved, log in at [claude.ai](https://claude.ai) in your browser, or download the native app for [macOS](https://claude.ai/download/mac) or [Windows](https://claude.ai/download/windows)
 3. Start a new conversation and try a task from your day-to-day work
 
 ### Claude Projects
@@ -308,6 +308,7 @@ Anthropic offers free courses at [anthropic.skilljar.com](https://anthropic.skil
 - [Anthropic YouTube channel](https://www.youtube.com/@anthropic-ai) — Product demos, tutorials, and talks
 - [Claude Code introduction](https://youtu.be/Yf_1w00qIKc) — Official getting-started video
 - [Advanced Claude Code use cases](https://youtu.be/AJpK3YTTKZ4) — Tips and advanced workflows
+- [Matt Pocock's YouTube channel](https://www.youtube.com/@mattpocockuk) — Practical Claude Code tutorials and developer workflows
 
 ### Community
 
