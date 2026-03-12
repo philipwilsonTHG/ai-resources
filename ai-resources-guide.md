@@ -127,7 +127,7 @@ NotebookLM is an AI-powered research and note-taking tool from Google. You uploa
 
 ### Writer
 
-[Writer](https://writer.com/) is an AI platform designed for enterprise content generation, with features for maintaining brand consistency, style guides, and content governance. THG has a corporate account with Writer.
+[Writer](https://writer.com/) is an AI platform designed for enterprise content generation, with features for maintaining brand consistency, style guides, and content governance. THG has an enterprise account with Writer.
 
 **Access:** [TBD — access details to be confirmed.]
 
