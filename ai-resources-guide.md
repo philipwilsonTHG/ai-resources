@@ -48,6 +48,8 @@ If you're unsure whether something is appropriate to share with an AI tool, err 
 
 ## Available Tools & How to Access Them
 
+You need to be using a **THG-managed laptop** — many of the tools and access steps below won't work correctly on a personal device.
+
 ### How to Request Access via ConductorOne
 
 Several tools below require you to request access through **ConductorOne**, our software access management platform. To find it:
