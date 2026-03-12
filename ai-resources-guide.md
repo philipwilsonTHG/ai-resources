@@ -69,14 +69,6 @@ ChatGPT Enterprise is the company-approved version with full data protection. Yo
 
 **Access:** Request via ConductorOne (see [How to request access via ConductorOne](#how-to-request-access-via-conductorone) below). Most requests are auto-approved.
 
-#### Codex CLI
-
-OpenAI's Codex CLI is an AI-powered coding assistant that runs in your terminal. It can generate code, explain existing code, automate scripting tasks, and work with files on your machine. It uses your ChatGPT Enterprise account, so it has the same data protections.
-
-Codex CLI is available to everyone, not just developers — it can be useful for anyone comfortable working in a terminal.
-
-**Access:** Uses your ChatGPT Enterprise account. Install the CLI tool and authenticate with your enterprise credentials.
-
 ---
 
 ### Claude Enterprise
@@ -87,14 +79,7 @@ Claude Enterprise provides full data protection — your conversations are not u
 
 **Access:** Request via ConductorOne. We have 100 seats total and they are currently fully subscribed, so there is a waiting list. If you need access, submit your request and you'll be added to the queue.
 
-#### Claude Code
-
-Claude Code is an AI coding assistant that works in your terminal and IDE. It can write and edit code, run commands, search your codebase, and handle multi-step development tasks autonomously. It's useful for software engineers, data analysts, and anyone who works with code or scripts.
-
-There are two ways to use Claude Code:
-
-- **Light use (via Unbound Gateway):** Capped at \$50/month. Good for occasional use and getting started. Request access to Unbound Gateway via ConductorOne.
-- **Heavy use (Claude Max):** If you find yourself hitting the \$50 cap regularly, request a personal Claude Max account. Start with the 5x plan (\$100/month, with five times the standard usage allowance), get your manager's approval, and expense it via ExpenseIn (our expense management system). Higher tiers are available if your usage grows beyond this.
+For a deeper dive into Claude and Claude Code, see the [Claude & Claude Code Guide](claude-and-claude-code.md).
 
 ---
 
@@ -110,25 +95,11 @@ Because it works inside your existing tools, Copilot is one of the easiest AI to
 
 ### Gemini Enterprise
 
-Gemini is Google's AI assistant, integrated with Google Workspace. It can help you draft and edit in Google Docs, analyse data in Google Sheets, compose emails in Gmail, and summarise content across Google's productivity suite. Gemini Enterprise also includes an agent designer for building AI-powered agents and automated workflows that can search across company data and perform multi-step tasks.
+Gemini is Google's AI assistant. It offers a chat interface at [gemini.google.com/app](https://gemini.google.com/app) similar to ChatGPT and the Claude app, where you can have conversations, upload files, and get help with writing, analysis, and research tasks. It is also integrated with Google Workspace — helping you draft and edit in Google Docs, analyse data in Google Sheets, compose emails in Gmail, and summarise content across Google's productivity suite. Gemini Enterprise also includes an agent designer for building AI-powered agents and automated workflows that can search across company data and perform multi-step tasks.
 
 Gemini Enterprise provides data protection — your conversations are not used to train Google's models.
 
-**Access:** Request via ConductorOne. Gemini Enterprise also includes access to the Gemini App and NotebookLM.
-
-#### Gemini App
-
-The Gemini app at [gemini.google.com/app](https://gemini.google.com/app) is a standalone AI assistant from Google — similar to using ChatGPT or Claude directly in a browser. You can have conversations, upload files, and get help with writing, analysis, and research tasks. It uses your Gemini Enterprise account, so it has the same data protections.
-
-**Access:** Available to all employees through Gemini Enterprise. Log in with your work Google account.
-
-#### Gemini CLI
-
-Gemini CLI is Google's AI-powered coding assistant that runs in your terminal — similar to Claude Code and Codex CLI. It can generate and edit code, automate tasks, and work with files on your machine.
-
-Gemini CLI connects to Google's models via a Vertex AI project, or via an API key generated through Unbound Gateway.
-
-**Access:** Either use a GCP Vertex AI project, or request access to Unbound Gateway via ConductorOne to generate an API key. Installation instructions are available on the [Gemini CLI GitHub page](https://github.com/google-gemini/gemini-cli).
+**Access:** Request via ConductorOne. Gemini Enterprise also includes access to NotebookLM.
 
 #### Google AI Studio
 
@@ -149,6 +120,39 @@ This is primarily for engineering teams working on ML/AI-powered features and se
 NotebookLM is an AI-powered research and note-taking tool from Google. You upload documents — PDFs, articles, notes — and it helps you synthesise information, answer questions about your sources, and generate summaries. It's particularly useful when you need to quickly get across a large body of material.
 
 **Access:** Included with Gemini Enterprise. Request Gemini Enterprise via ConductorOne.
+
+## CLI Tools for Programmers
+
+These tools run in your terminal and are designed for writing, editing, running, and debugging code. They are most useful for software engineers, data analysts, and anyone comfortable working on the command line.
+
+### Claude Code
+
+Claude Code is an AI coding assistant from Anthropic that works in your terminal and IDE. It can write and edit code, run commands, search your codebase, and handle multi-step development tasks autonomously. For installation, configuration, and detailed usage tips, see the [Claude & Claude Code Guide](claude-and-claude-code.md).
+
+There are two ways to use Claude Code:
+
+- **Light use (via Unbound Gateway):** Capped at \$50/month. Good for occasional use and getting started. Request access to Unbound Gateway via ConductorOne.
+- **Heavy use (Claude Max):** If you find yourself hitting the \$50 cap regularly, request a personal Claude Max account. Start with the 5x plan (\$100/month, with five times the standard usage allowance), get your manager's approval, and expense it via ExpenseIn (our expense management system). Higher tiers are available if your usage grows beyond this.
+
+Installation instructions are available on the [Claude Code GitHub page](https://github.com/anthropics/claude-code).
+
+---
+
+### Codex CLI
+
+OpenAI's Codex CLI is an AI-powered coding assistant that runs in your terminal. It can write, edit, run, and debug code, as well as explain existing code, automate scripting tasks, and work with files on your machine. It uses your ChatGPT Enterprise account, so it has the same data protections.
+
+**Access:** Uses your ChatGPT Enterprise account. Install the CLI tool and authenticate with your enterprise credentials. Installation instructions are available on the [Codex GitHub page](https://github.com/openai/codex).
+
+---
+
+### Gemini CLI
+
+Gemini CLI is Google's AI-powered coding assistant that runs in your terminal. It can write, edit, run, and debug code, automate tasks, and work with files on your machine.
+
+Gemini CLI connects to Google's models via a Vertex AI project, or via an API key generated through Unbound Gateway.
+
+**Access:** Either use a GCP Vertex AI project, or request access to Unbound Gateway via ConductorOne to generate an API key. Installation instructions are available on the [Gemini CLI GitHub page](https://github.com/google-gemini/gemini-cli).
 
 ---
 
