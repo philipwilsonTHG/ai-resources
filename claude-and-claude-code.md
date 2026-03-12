@@ -57,7 +57,7 @@ Claude Code is an agentic coding tool that reads your codebase, edits files, run
 
 ### Installation via Unbound Gateway
 
-For company-managed access via Unbound Gateway, Claude Code is installed as a custom package. This is the recommended route for most employees.
+For THG-managed access via Unbound Gateway, Claude Code is installed as a custom package. This is the recommended route for most employees.
 
 #### Step 1: Request access to Unbound
 
@@ -179,7 +179,7 @@ Run Claude Code in your browser with no local setup at [claude.ai/code](https://
 
 ### Access and Cost
 
-There are two ways to use Claude Code at the company:
+There are two ways to use Claude Code at THG:
 
 - **Light use (via Unbound Gateway):** Capped at \$50/month. Good for occasional use and getting started. Request access to Unbound Gateway via ConductorOne.
 - **Heavy use (Claude Max):** If you hit the \$50 cap regularly, request a personal Claude Max account. Start with the 5x plan (\$100/month, with five times the standard usage allowance), get your manager's approval, and expense it via ExpenseIn. Higher tiers are available if needed.

@@ -1,6 +1,6 @@
 # AI Resources Guide
 
-> Your guide to the AI tools available across the company, how to access them, and how to put them to work.
+> Your guide to the AI tools available at THG, how to access them, and how to put them to work.
 
 ## Introduction
 
@@ -40,7 +40,7 @@ Always review AI-generated content before using it in your work. AI can hallucin
 
 Enterprise tools have data protection agreements in place and do not use your inputs to train their models. Free and personal-tier versions of the same tools may not offer these protections — this is why the distinction matters.
 
-**Use enterprise tools for work.** As a general rule, always use the company-provided enterprise versions of AI tools rather than free or personal accounts. If you already have a personal ChatGPT, Gemini, or Claude account, avoid using it for work tasks — use the enterprise version instead.
+**Use enterprise tools for work.** As a general rule, always use the THG-provided enterprise versions of AI tools rather than free or personal accounts. If you already have a personal ChatGPT, Gemini, or Claude account, avoid using it for work tasks — use the enterprise version instead.
 
 ### When in Doubt
 
@@ -59,7 +59,7 @@ Several tools below require you to request access through **ConductorOne**, our 
 3. Open ConductorOne and search for the tool you need (e.g., "ChatGPT Enterprise")
 4. Submit your request — most are auto-approved and you'll receive access within minutes
 
-If you're unfamiliar with Okta, it's the company portal where you access all your work applications. You can reach it at [thg.okta.com](https://thg.okta.com).
+If you're unfamiliar with Okta, it's the THG portal where you access all your work applications. You can reach it at [thg.okta.com](https://thg.okta.com).
 
 ---
 
@@ -67,7 +67,7 @@ If you're unfamiliar with Okta, it's the company portal where you access all you
 
 ChatGPT is a general-purpose AI assistant from OpenAI. It's a strong all-rounder for writing, brainstorming, summarisation, data analysis, and research. You can upload files (spreadsheets, PDFs, images) and ask it to analyse them, generate charts, or extract insights. It also supports Custom GPTs — pre-configured assistants tailored to specific tasks.
 
-ChatGPT Enterprise is the company-approved version with full data protection. Your conversations are not used to train OpenAI's models.
+ChatGPT Enterprise is the THG-approved version with full data protection. Your conversations are not used to train OpenAI's models.
 
 **Access:** Request via ConductorOne (see [How to request access via ConductorOne](#how-to-request-access-via-conductorone) below). Most requests are auto-approved.
 
