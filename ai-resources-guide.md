@@ -54,12 +54,10 @@ You need to be using a **THG-managed laptop** — many of the tools and access s
 
 Several tools below require you to request access through **ConductorOne**, our software access management platform. To find it:
 
-1. Log in to **Okta** (our single sign-on portal)
+1. Log in to **Okta** (at [thg.okta.com](https://thg.okta.com))
 2. Search for **ConductorOne** in the Okta app catalogue
 3. Open ConductorOne and search for the tool you need (e.g., "ChatGPT Enterprise")
 4. Submit your request — most are auto-approved and you'll receive access within minutes
-
-If you're unfamiliar with Okta, it's the THG portal where you access all your work applications. You can reach it at [thg.okta.com](https://thg.okta.com).
 
 ---
 
