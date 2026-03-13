@@ -278,12 +278,16 @@ Claude Code works best when it has the right context. Here's how to manage it:
 
 MCP is an open standard for connecting Claude Code to external data sources. With MCP, Claude Code can:
 
-- Read design docs in Google Drive
-- Update tickets in Jira
-- Pull data from Slack
-- Use your own custom tooling
+- Control a browser using [Playwright](https://github.com/microsoft/playwright-mcp)
+- Query databases in GCP [link](https://cloud.google.com/blog/products/databases/managed-mcp-servers-for-google-cloud-databases/)
+- Use your own custom tooling (talking to internal APIs for example)
 
 See the [MCP documentation](https://code.claude.com/docs/en/mcp) for setup instructions.
+
+### CLI tools
+
+Claude is good at writing and using command line interface tools, this is often a good way to access APIs and in many cases preferable to MCP. CLI tools can be used in custom skills.
+
 
 ---
 
