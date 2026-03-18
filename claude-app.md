@@ -137,6 +137,44 @@ The two complement each other. A skill can reference knowledge stored in a proje
 
 For more details, see Anthropic's guide to [working with Skills](https://support.claude.com/en/articles/12512176-what-are-skills).
 
+## Connectors
+
+Connectors let Claude access your apps and services directly — retrieving data, searching documents, and taking actions without you needing to copy and paste information into the conversation. Instead of starting from scratch every time, Claude can work with the same tools and data you use every day.
+
+### Types of Connectors
+
+- **Web connectors** — Link Claude to cloud services like Google Drive, Slack, Gmail, Notion, Asana, Linear, Jira, Stripe, and many more. Available across Claude web, desktop, and mobile.
+- **Desktop extensions** — Run locally on your computer through the Claude desktop app, giving Claude access to local files and native applications like Figma.
+- **Custom connectors** — Connect Claude to any service via remote MCP servers. Useful for internal tools and APIs. Available on free (limited to one), Pro, Max, Team, and Enterprise plans.
+
+### Setting Up a Connector
+
+1. In any chat, click the **+** button, hover over **Connectors**, and select **Manage connectors** — or go to **Settings > Customize > Connectors**
+2. Browse the [Connectors Directory](https://claude.ai/directory) and select the connector you want
+3. Click **Connect** or **Install** and complete authentication with the service
+4. Review and grant the requested permissions
+5. Test the connection with a simple request like "Can you access my Google Drive?"
+
+### What You Can Do with Connectors
+
+**Project management (Asana, Linear, Jira)** — "What are my highest priority tasks due this week?", "Create a new task for reviewing the Q4 budget proposal"
+
+**Communication (Slack, Gmail)** — "Find the email thread where we discussed the vendor contract", "What did the team decide about the timeline in yesterday's Slack discussion?"
+
+**Documentation (Notion, Google Drive, Confluence)** — "Search our documentation for our brand voice guidelines", "Summarise the meeting notes from last week's product review"
+
+**Business tools (Stripe, Salesforce)** — "Show me revenue trends for the past quarter", "List recent transactions over \$1,000"
+
+### Permissions and Security
+
+- **Scoped access** — Permissions are specific to what the connector needs, and you can toggle individual permissions on or off
+- **Claude sees what you see** — Claude can only access data you have permission to access; connecting your work email doesn't give Claude access to colleagues' private messages
+- **Revocable at any time** — Disconnect a service through Claude's settings or through the third-party service's security settings
+
+On Enterprise plans, organisation owners must enable connectors before individual members can use them. Connectors are limited to private projects, and chats with synced content cannot be shared.
+
+For more details, see Anthropic's guide to [using connectors](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) and browse available integrations in the [Connectors Directory](https://claude.ai/directory).
+
 ## Cowork
 
 Cowork brings Claude's agentic capabilities to the Claude desktop app for complex, multi-step work. Instead of responding to prompts one at a time, Claude can take on extended tasks and execute them on your behalf — reading and writing files on your machine, creating professional documents, and coordinating multiple workstreams in parallel.
