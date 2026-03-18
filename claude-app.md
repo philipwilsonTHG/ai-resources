@@ -52,6 +52,8 @@ With Claude Enterprise, you can share projects with colleagues:
 - **Update documents when they change.** A project using last year's brand guidelines will give last year's answers.
 - **Create separate projects for distinct tasks.** Don't overload one project — a "Product Descriptions" project and a "Brand Review" project will each work better than a single "Content" project trying to do both.
 
+For more details, see Anthropic's guide to [creating and managing Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects).
+
 ## Artifacts
 
 Artifacts are standalone pieces of content that Claude creates in a dedicated panel alongside the conversation. Instead of generating a long document inline in the chat, Claude places it in an artifact where you can view, edit, and download it separately.
@@ -61,9 +63,10 @@ Artifacts are standalone pieces of content that Claude creates in a dedicated pa
 Claude automatically creates an artifact when content is substantial (typically over 15 lines), self-contained, and something you're likely to reuse or edit. This includes:
 
 - **Documents** — reports, proposals, guides, emails (in Markdown or plain text)
-- **Code** — scripts, functions, configuration files
-- **Websites and apps** — HTML pages, interactive React components
-- **Visual content** — SVG images, diagrams, flowcharts
+- **Code** — scripts, functions, configuration files in any language
+- **Websites and apps** — HTML pages, interactive React components with real functionality
+- **Visual content** — SVG images, illustrations, icons
+- **Diagrams** — flowcharts, sequence diagrams, Gantt charts, and org charts (using Mermaid)
 - **Spreadsheet-ready content** — tables and data formatted for export
 
 ### Working with Artifacts
@@ -76,12 +79,63 @@ Claude automatically creates an artifact when content is substantial (typically 
 
 **Export.** Copy content to your clipboard, view the underlying code, or download the file for use elsewhere.
 
+**Sharing.** With Claude Enterprise, you can share artifacts with colleagues within the organisation. Shared artifacts require team authentication to access — your chat conversation remains private.
+
 ### When Artifacts Are Useful
 
 - **Drafting documents** — Ask Claude to write a report or proposal, then refine it through conversation. The artifact keeps the document separate from your back-and-forth discussion.
 - **Creating templates** — Build reusable templates for emails, reports, or presentations that you can download and adapt.
 - **Prototyping** — Have Claude build a quick interactive prototype or data visualisation you can preview immediately.
 - **Generating structured content** — Product descriptions, FAQ pages, or other content that benefits from being viewed as a finished document rather than chat output.
+
+### Tips for Artifacts
+
+- **Be specific about what you want.** "Build a budget tracker" is good, but "Build a monthly budget tracker where I can input expenses by category, see a pie chart breakdown, and get a warning when I'm over budget" is better.
+- **Describe the end user.** Telling Claude who will use the artifact helps it make appropriate design choices — "this flowchart is for new employees" leads to different results than "this flowchart is for the engineering team."
+- **Iterate incrementally.** Add one feature or make one change at a time to catch issues early.
+- **Request artifacts when needed.** If Claude responds in the chat instead of creating an artifact, say "Please create that as an artifact."
+
+## Skills
+
+Skills are packages of instructions, scripts, and resources that Claude loads dynamically to improve its performance on specialised tasks. Think of them as expertise packages — they teach Claude how to complete specific tasks in a repeatable way.
+
+### How Skills Work
+
+Claude handles skill selection automatically based on your request. When you ask Claude to create an Excel spreadsheet or a PowerPoint presentation, it loads the relevant skill behind the scenes — you don't need to do anything special. You'll see skills mentioned in Claude's chain of thought as it works.
+
+### Types of Skills
+
+- **Anthropic Skills** — Built-in skills maintained by Anthropic for document creation (Excel, Word, PowerPoint, PDF). These are available to all paid users and invoked automatically.
+- **Partner Skills** — Professionally built integrations from partners like Notion, Figma, and Atlassian, available through the Skills Directory.
+- **Custom Skills** — Skills you or your organisation create for specific workflows. Examples include applying brand guidelines to presentations, structuring meeting notes in a particular format, or executing data analysis workflows.
+- **Organisation-provisioned Skills** — On Team and Enterprise plans, owners can distribute approved skills to all members.
+
+### Creating Custom Skills
+
+The easiest way to create a custom skill is through conversation with Claude itself — no coding required for simple skills:
+
+1. Start a new chat and describe what you want: "I want to create a skill for writing quarterly business reviews"
+2. Answer Claude's questions about your workflow, what good output looks like, and any constraints
+3. Upload reference materials if you have them — templates, style guides, or examples
+4. Download the skill as a ZIP file when Claude has finished
+5. Upload it in **Settings > Capabilities > Skills**
+
+Your custom skill will appear alongside Anthropic's built-in skills and Claude will invoke it automatically when relevant.
+
+### Enabling Skills
+
+To use skills, you need **Code execution and file creation** enabled in **Settings > Capabilities**. On Enterprise plans, organisation owners must first enable both code execution and skills in Admin settings before individual members can access them.
+
+### Skills vs Projects
+
+Both features give Claude additional context, but they serve different purposes:
+
+- **Projects** store knowledge — reference materials, specs, and documents that Claude draws on across conversations within that project
+- **Skills** define processes — step-by-step procedures that Claude executes consistently whenever the task comes up, across all conversations
+
+The two complement each other. A skill can reference knowledge stored in a project — for example, a "customer call prep" skill might pull from customer profiles uploaded to a project's knowledge base.
+
+For more details, see Anthropic's guide to [working with Skills](https://support.claude.com/en/articles/12512176-what-are-skills).
 
 ## Cowork
 
