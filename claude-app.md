@@ -126,11 +126,23 @@ Claude automatically creates an artifact when content is substantial, self-conta
 
 **Sharing.** With Claude Enterprise, you can share artifacts with colleagues within the organisation. Shared artifacts require team authentication to access — your chat conversation remains private.
 
+### Code Execution and File Creation
+
+When code execution is enabled (**Settings > Capabilities**), Claude can run Python code in a secure sandboxed environment to produce more sophisticated outputs. This powers several practical capabilities:
+
+- **Data analysis** — Upload a CSV or spreadsheet and ask Claude to analyse it, find trends, or build a machine learning model
+- **Charts and visualisations** — Generate charts and graphs from your data as downloadable images
+- **Professional documents** — Create polished Excel spreadsheets with working formulas, PowerPoint presentations, Word documents, and PDFs
+- **File processing** — Transform, clean, or restructure data files
+
+Code execution is enabled by default on free, Pro, and Max plans. On Enterprise plans, organisation owners must enable it in Admin settings first.
+
 ### When Artifacts Are Useful
 
 - **Drafting documents** — Ask Claude to write a report or proposal, then refine it through conversation. The artifact keeps the document separate from your back-and-forth discussion.
 - **Creating templates** — Build reusable templates for emails, reports, or presentations that you can download and adapt.
 - **Prototyping** — Have Claude build a quick interactive prototype or data visualisation you can preview immediately.
+- **Data analysis** — Upload a dataset and ask Claude to analyse it, generate charts, or build a model — the results appear as downloadable files.
 - **Generating structured content** — Product descriptions, FAQ pages, or other content that benefits from being viewed as a finished document rather than chat output.
 
 ### Tips for Artifacts
@@ -165,7 +177,7 @@ The easiest way to create a custom skill is through conversation with Claude its
 4. Download the skill as a ZIP file when Claude has finished
 5. Upload it in **Settings > Capabilities > Skills**
 
-Your custom skill will appear alongside Anthropic's built-in skills and Claude will invoke it automatically when relevant.
+Your custom skill will appear alongside Anthropic's built-in skills and Claude will invoke it automatically when relevant. Skill creation is often iterative — expect to test, refine, and re-upload a few times before the skill works exactly as you want.
 
 ### Enabling Skills
 
