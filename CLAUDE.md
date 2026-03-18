@@ -9,7 +9,9 @@ This is a documentation repository for internal AI resources guides at THG (The 
 ## Documents
 
 - `ai-resources-guide.md` — Main guide covering all available AI tools, data sensitivity policies, a quick-reference table, role-based use cases with sample prompts, and getting started tips. Audience: all employees.
-- `claude-and-claude-code.md` — Deep-dive into Claude Enterprise and Claude Code with THG-specific installation instructions (Unbound Gateway, WSL setup), configuration, and external learning resources. Linked from the main guide.
+- `claude-app.md` — Deep-dive into Claude Enterprise: Projects, tips for effective use, and learning resources.
+- `claude-code.md` — Deep-dive into Claude Code with THG-specific installation instructions (Unbound Gateway, WSL setup), configuration, and external learning resources.
+- `building-agents-for-non-programmers.md` — How to create AI assistants and automated workflows using no-code platforms.
 
 ## Conventions
 

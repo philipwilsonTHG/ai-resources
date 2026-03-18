@@ -79,7 +79,7 @@ Claude Enterprise provides full data protection — your conversations are not u
 
 **Access:** Request via ConductorOne. We have 100 seats total and they are currently fully subscribed, so there is a waiting list. If you need access, submit your request and you'll be added to the queue.
 
-For a deeper dive into Claude and Claude Code, see the [Claude & Claude Code Guide](claude-and-claude-code.md).
+For a deeper dive, see the [Claude App Guide](claude-app.md) and the [Claude Code Guide](claude-code.md).
 
 ---
 
@@ -135,7 +135,7 @@ These tools run in your terminal and are designed for writing, editing, running,
 
 ### Claude Code
 
-Claude Code is an AI coding assistant from Anthropic that works in your terminal and IDE. It can write and edit code, run commands, search your codebase, and handle multi-step development tasks autonomously. For installation, configuration, and detailed usage tips, see the [Claude & Claude Code Guide](claude-and-claude-code.md).
+Claude Code is an AI coding assistant from Anthropic that works in your terminal and IDE. It can write and edit code, run commands, search your codebase, and handle multi-step development tasks autonomously. For installation, configuration, and detailed usage tips, see the [Claude Code Guide](claude-code.md).
 
 There are two ways to use Claude Code:
 
