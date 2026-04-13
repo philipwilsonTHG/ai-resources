@@ -152,7 +152,13 @@ OpenAI's Codex CLI is an AI-powered coding assistant that runs in your terminal.
 
 There is also a [Codex app for macOS](https://chatgpt.com/codex) that provides a graphical interface for working with Codex.
 
-**Access:** Uses your ChatGPT Enterprise account. Install the CLI tool and authenticate with your enterprise credentials. Installation instructions are available on the [Codex GitHub page](https://github.com/openai/codex).
+**Access:** Uses your ChatGPT Enterprise account. On macOS, install via Homebrew (install Homebrew first from [brew.sh](https://brew.sh/) if you don't have it):
+
+```bash
+brew install --cask codex
+```
+
+Then authenticate with your enterprise credentials. Full installation instructions (including other platforms) are available on the [Codex GitHub page](https://github.com/openai/codex).
 
 ---
 
