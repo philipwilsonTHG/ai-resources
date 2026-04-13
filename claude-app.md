@@ -321,11 +321,23 @@ Claude for Excel is a Microsoft add-in that brings Claude directly into Excel as
 
 Install "Claude by Anthropic for Excel" from the [Microsoft Marketplace](https://appsource.microsoft.com/). Works on Excel for the web, Windows (Microsoft 365), Mac, and iPad. Does not support macros, VBA, or data tables. **Only use with trusted spreadsheets** — untrusted files may contain hidden prompt injection attacks. See Anthropic's guide to [Claude in Excel](https://support.claude.com/en/articles/12650343-use-claude-in-excel).
 
+### Claude for Word
+
+Claude for Word is a Microsoft add-in that brings Claude into your document workflow as a sidebar. You can ask questions about your document, edit text, and draft content — all while staying in Word.
+
+- **Ask and understand** — Ask questions about your document and get answers with clickable section citations
+- **Edit with tracked changes** — Edit selected text while maintaining formatting, styles, and numbering, with tracked changes mode so you can review edits before accepting
+- **Process comments** — Respond to comment threads with contextual, document-aware replies
+- **Fill templates** — Draft content that matches your document's existing styles and structure
+- **Semantic search** — Find thematic provisions through meaning rather than keyword matching
+
+Install "Claude for Word" from the [Microsoft Marketplace](https://appsource.microsoft.com/). Works on Word for the web, Windows (Microsoft 365), and Mac. Not available on iPad, Android, or older standalone versions of Word. Currently in beta. **Only use with trusted documents** — untrusted files may contain hidden prompt injection attacks. See Anthropic's guide to [Claude for Word](https://support.claude.com/en/articles/14465370-use-claude-for-word).
+
 ### Claude for PowerPoint
 
 Claude for PowerPoint is a companion add-in that brings Claude into your presentation workflow. You can create slides from templates, edit specific slides without regenerating entire decks, convert bullet points into native charts and diagrams, and build full deck structures from natural language descriptions.
 
-Claude can also work across both add-ins — for example, reading data from an Excel workbook and creating charts in a PowerPoint presentation without you switching between apps.
+Claude can also work across the Office add-ins — for example, reading data from an Excel workbook and creating charts in a PowerPoint presentation without you switching between apps.
 
 Install "Claude by Anthropic for PowerPoint" from the [Microsoft Marketplace](https://appsource.microsoft.com/). Works on PowerPoint for the web, Windows (Microsoft 365), and Mac. Not available on iPad. See Anthropic's guide to [Claude in PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint).
 
@@ -343,7 +355,7 @@ Install the extension from the [Chrome Web Store](https://claude.ai/chrome). Cur
 
 ### Availability
 
-All three add-ins/extensions are available on Pro, Max, Team, and Enterprise plans. Sign in with your Claude account after installation. Data is automatically deleted within 30 days.
+The Office add-ins and Chrome extension are available on Pro, Max, Team, and Enterprise plans. Sign in with your Claude account after installation. Data is automatically deleted within 30 days.
 
 ## Enterprise Search
 
