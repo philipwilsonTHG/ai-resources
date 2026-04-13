@@ -1,8 +1,8 @@
 # Claude App: Getting Started and Going Deeper
 
-> A detailed guide to getting the most out of Claude Enterprise.
+> A detailed guide to getting the most out of Claude at THG.
 
-This document complements the [AI Resources Guide](ai-resources-guide.md) with deeper coverage of Claude — what it's good at, how to use Projects, and tips for effective use. For Claude Code (the coding tool), see the [Claude Code Guide](claude-code.md).
+This document complements the [AI Resources Guide](ai-resources-guide.md) with deeper coverage of Claude — the chat interface, Projects, Artifacts, Research, connectors, and more. For Claude Code (the coding tool), see the [Claude Code Guide](claude-code.md).
 
 ## What Claude Is Good At
 
@@ -16,20 +16,21 @@ Claude is Anthropic's AI assistant. It has particular strengths in:
 ## Getting Started with Claude
 
 1. Request access via ConductorOne (through [Okta](https://thg.okta.com)). Note: we have 100 seats and there is currently a waiting list.
-2. Once approved, log in at [claude.ai](https://claude.ai) in your browser, or download the native app for [macOS](https://claude.ai/download/mac) or [Windows](https://claude.ai/download/windows)
+2. Once approved, log in at [claude.ai](https://claude.ai) in your browser, or download the native app for [macOS](https://claude.ai/download/mac), [Windows](https://claude.ai/download/windows), [iOS](https://apps.apple.com/app/claude-by-anthropic/id6473753684), or [Android](https://play.google.com/store/apps/details?id=com.anthropic.claude)
 3. Start a new conversation and try a task from your day-to-day work
-
-**Where to start:** If you're new to Claude, begin with a simple conversation to get a feel for it. Then try uploading a document and asking Claude to analyse it. Once you're comfortable, explore Projects for recurring work and Artifacts for creating documents and prototypes.
 
 ## The Chat Interface
 
 Claude works through a conversational interface — you type a message, Claude responds, and you can continue the conversation to refine the results. Each conversation maintains context, so Claude remembers what you've discussed earlier in the same chat.
 
+If you're new to Claude, begin with a simple conversation to get a feel for it. Then try uploading a document and asking Claude to analyse it. Once you're comfortable, explore Projects for recurring work and Artifacts for creating documents and prototypes.
+
 ### What You Can Do in a Conversation
 
 - **Ask questions** — from simple lookups to complex analysis
 - **Upload files** — documents, spreadsheets, images, and data for Claude to read and work with
-- **Search the web** — Claude can search the web mid-conversation for current information, and will include citations so you can verify sources. You can prompt it explicitly ("search the web for...") or let it decide when a search would help. You can also give Claude a URL and ask it to read the page directly.
+- **Search the web** — Claude can search the web mid-conversation for current information, and will include citations so you can verify sources. You can prompt it explicitly ("search the web for...") or let it decide when a search would help. You can also give Claude a URL and ask it to read the page directly. For deeper investigations, see the [Research](#research) section.
+- **Use voice** — on the mobile apps, tap the sound wave icon to speak to Claude and hear voice responses. You can switch between text and voice within the same conversation. Hands-free mode responds to natural pauses; push-to-talk gives you more control in noisy environments.
 - **Switch models** — paid plan users can choose between different Claude models using the model selector below the text input. Opus is the most capable, Sonnet balances speed and quality, and Haiku is the fastest for simpler tasks.
 - **Start fresh** — begin a new conversation when switching topics, as this helps Claude focus on the task at hand
 
@@ -50,6 +51,10 @@ Claude works through a conversational interface — you type a message, Claude r
 **Ask Claude to critique its own work.** After getting a first draft, ask "What's weak about this?" or "What would a sceptical reader push back on?" Claude is good at self-critique.
 
 **Use Projects for recurring work.** If you find yourself re-explaining the same context at the start of every conversation, create a Project (see below) with your standard instructions and reference files.
+
+### Keep in Mind
+
+Claude is powerful but not infallible. It can occasionally present plausible-sounding information that is incorrect (sometimes called "hallucination"), so always verify important facts — especially numbers, dates, and claims about specific people or events. Claude's training data has a knowledge cutoff, so it may not know about very recent events unless it searches the web. And without connectors set up, Claude has no access to THG's internal systems or data — you'll need to provide that context yourself or connect the relevant tools.
 
 ## Projects
 
@@ -228,7 +233,7 @@ Connectors let Claude access your apps and services directly — retrieving data
 - **Claude sees what you see** — Claude can only access data you have permission to access; connecting your work email doesn't give Claude access to colleagues' private messages
 - **Revocable at any time** — Disconnect a service through Claude's settings or through the third-party service's security settings
 
-On Enterprise plans, organisation owners must enable connectors before individual members can use them. Connectors are limited to private projects, and chats with synced content cannot be shared.
+On Enterprise plans, organisation owners must enable connectors before individual members can use them. Connectors are limited to private projects, and chats with synced content cannot be shared. Check with your admin which connectors are currently enabled for THG.
 
 For more details, see Anthropic's guide to [using connectors](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) and browse available integrations in the [Connectors Directory](https://claude.ai/directory).
 
@@ -301,37 +306,32 @@ For quick factual lookups, standard web search is faster. For complex reasoning 
 
 For more details, see Anthropic's guide to [using Research](https://support.claude.com/en/articles/11088861-using-research-on-claude-ai).
 
-## Claude for Excel
+## Other Ways to Use Claude
+
+Beyond the main chat interface, Claude is available as add-ins and extensions that meet you where you already work.
+
+### Claude for Excel
 
 Claude for Excel is a Microsoft add-in that brings Claude directly into Excel as a sidebar. You can ask questions about your workbook, build and modify models, and debug errors — all through conversation while staying in your spreadsheet.
-
-### What It Can Do
 
 - **Understand your workbook** — Ask questions about formulas, calculation flows, and data across multiple tabs, with cell-level citations in the answers
 - **Modify and build** — Update assumptions while preserving formula dependencies, populate templates with data, or build new financial models from scratch
 - **Debug errors** — Trace `#REF!`, `#VALUE!`, circular references, and other errors to their source
 - **Apply Excel operations** — Create pivot tables and charts, apply conditional formatting, set data validation, and format workbooks for printing
 
-### Getting Started
+Install "Claude by Anthropic for Excel" from the [Microsoft Marketplace](https://appsource.microsoft.com/). Works on Excel for the web, Windows (Microsoft 365), Mac, and iPad. Does not support macros, VBA, or data tables. **Only use with trusted spreadsheets** — untrusted files may contain hidden prompt injection attacks. See Anthropic's guide to [Claude in Excel](https://support.claude.com/en/articles/12650343-use-claude-in-excel).
 
-1. Find "Claude by Anthropic for Excel" on the [Microsoft Marketplace](https://appsource.microsoft.com/) and click **Get it now**
-2. Open Excel, activate the add-in, and sign in with your Claude account
+### Claude for PowerPoint
 
-Claude for Excel works on Excel for the web, Windows (Microsoft 365), Mac, and iPad. It's available on Pro, Max, Team, and Enterprise plans.
+Claude for PowerPoint is a companion add-in that brings Claude into your presentation workflow. You can create slides from templates, edit specific slides without regenerating entire decks, convert bullet points into native charts and diagrams, and build full deck structures from natural language descriptions.
 
-### Things to Know
+Claude can also work across both add-ins — for example, reading data from an Excel workbook and creating charts in a PowerPoint presentation without you switching between apps.
 
-- Does not support macros, VBA, or data tables
-- **Only use with trusted spreadsheets** — untrusted files may contain hidden prompt injection attacks
-- Data is automatically deleted within 30 days
+Install "Claude by Anthropic for PowerPoint" from the [Microsoft Marketplace](https://appsource.microsoft.com/). Works on PowerPoint for the web, Windows (Microsoft 365), and Mac. Not available on iPad. See Anthropic's guide to [Claude in PowerPoint](https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint).
 
-For more details, see Anthropic's guide to [Claude in Excel](https://support.claude.com/en/articles/12650343-use-claude-in-excel).
-
-## Claude in Chrome
+### Claude in Chrome
 
 Claude in Chrome is a browser extension that adds Claude as a sidebar in Google Chrome. Claude can read, click, and navigate websites alongside you — summarising content, drafting responses, filling forms, and automating multi-step browser tasks.
-
-### What It Can Do
 
 - **Summarise web content** — Summarise articles, research papers, or web pages as you browse
 - **Draft and manage email** — Help compose responses and manage your inbox
@@ -339,18 +339,11 @@ Claude in Chrome is a browser extension that adds Claude as a sidebar in Google 
 - **Work across tabs** — Drag tabs into Claude's tab group and it can see and work across all of them simultaneously
 - **Schedule recurring tasks** — Set browser tasks to run automatically on a daily, weekly, or monthly schedule
 
-### Getting Started
+Install the extension from the [Chrome Web Store](https://claude.ai/chrome). Currently in beta. Only works in Google Chrome — not other Chromium-based browsers or mobile devices. Pro plans are limited to the Haiku model; Max, Team, and Enterprise plans can choose the model. Anthropic recommends using it for low-risk tasks on trusted websites. See Anthropic's guide to [Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome).
 
-Install the extension from the [Chrome Web Store](https://claude.ai/chrome) and sign in with your Claude account. Claude in Chrome is available on all paid plans (Pro, Max, Team, and Enterprise).
+### Availability
 
-### Things to Know
-
-- Currently in beta
-- Only works in Google Chrome — not supported on other Chromium-based browsers or mobile devices
-- Pro plans are limited to the Haiku model; Max, Team, and Enterprise plans can choose the model
-- Anthropic recommends using it for low-risk tasks on trusted websites — Claude asks for permission before taking high-risk actions like making purchases
-
-For more details, see Anthropic's guide to [Claude in Chrome](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome).
+All three add-ins/extensions are available on Pro, Max, Team, and Enterprise plans. Sign in with your Claude account after installation. Data is automatically deleted within 30 days.
 
 ## Enterprise Search
 
